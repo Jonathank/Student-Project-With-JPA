@@ -65,4 +65,9 @@ public class Student {
 	public void setLname(String lname) {
 		this.lname = lname;
 	}
+	
+	public String toString() {
+		return "Student ID  :  "+ getId()+"\nFirst Name  :  "+getFname()+"\nLast Name  :  "+getLname();
+		
+	}
 }
